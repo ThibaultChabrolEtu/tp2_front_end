@@ -1,0 +1,112 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: white;
+
+}
+
+h2 {
+    color: white;
+
+}
+
+#header {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#main {
+    margin: 250px;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#navbar li {
+    float: left;
+    margin: auto;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#navbar li a:hover {
+    color: #FFD700;
+}
+
+#navbar ul li ul {
+    display: none;
+}
+
+#navbar ul li:hover ul {
+    display: block;
+}
+
+#navbar li:hover ul li {
+    float: none;
+}
+
+
+a:link {
+    color: white;
+    margin: 25px;
+    padding: 0px;
+
+}
+
+a:visited {
+    color: white;
+}
+
+#tableAnimal {
+    padding-top: 15px;
+    margin: auto;
+
+}
+
+thead {
+    background-color: plum;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tableAnimal tr:hover {
+    background-color: green;
+}
+
+#table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 80%;
+    height: 80%;
+    text-align: left;
+    margin: auto;
+}
+
+#acceuil {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
